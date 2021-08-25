@@ -1,0 +1,22 @@
+﻿(base) PS C:\Users\erlinyou> conda env list
+# conda environments:
+#
+base                  *  C:\ProgramData\Anaconda3
+Airplanphoto             C:\ProgramData\Anaconda3\envs\Airplanphoto
+airphoto                 C:\ProgramData\Anaconda3\envs\airphoto
+
+(base) PS C:\Users\erlinyou> activate Airplanphoto
+(base) PS C:\Users\erlinyou> conda activate Airplanphoto
+(Airplanphoto) PS C:\Users\erlinyou> cd E:\d\VideoSurv\Airplan
+(Airplanphoto) PS E:\d\VideoSurv\Airplan> python airphotoMerge.py
+
+
+
+进入python环境：activate Airplanphoto（conda activate Airplanphoto）
+cd D:\Airplan photo
+d:
+必应卫星图偏移：python photoMergeCut.py
+挑黑（白）边图片：python checkNousePhotos.py
+卫星图合并&拆分：python satellite_merge_split.py
+dem地形数据tif格式偏移：python DEMshift.py
+3D模型数据偏移：python changeGPS.py
